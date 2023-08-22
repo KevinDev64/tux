@@ -1,9 +1,16 @@
 # tux
-Tux - The Lightweight Fun Program for Debian-based systems
+Tux - a lightweight funny program for
 
-To use, first install it - bash install.
-Ready! To use type tux in console.
+## Installation
 
-After that the INSTALL-file can be deleted.
+On Debian-based systems you can use [install\_deb.sh](install_deb.sh) script.
 
-Have fun :3
+Alternatively, install requrements and run `./tux` binary in project root.
+
+### Requirements
+
+* Fortune
+* Cowsay
+* Lolcat
+
+## Have fun :3
