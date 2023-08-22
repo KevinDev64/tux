@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # This programm install TUX & DEPENDIES FOR THIS in your system
 echo "Installing packages..."
@@ -8,7 +8,5 @@ echo "Wait... Tux is installing into your system..." | cowsay -f tux | lolcat
 echo "--------------------------------------"
 echo "Registering program in /usr/bin ..."
 cd /usr/bin
-sudo touch /usr/bin/tux
-sudo chmod 777 /usr/bin/tux
-sudo echo "clear & fortune | cowsay -f tux | lolcat" > /usr/bin/tux
+sudo install --mode 755 ./tux /usr/bin/tux
 echo "Installation is done!"
